@@ -40,7 +40,7 @@ module RubyPushNotifications
         }
         # TODO: remove to_json if causing error
         params = {
-          body: notification.to_json,
+          body: notification,
           headers: {
             AUTHORIZATION_HEADER => "key=#{key}",
             CONTENT_TYPE_HEADER => JSON_CONTENT_TYPE

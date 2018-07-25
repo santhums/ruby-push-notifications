@@ -19,8 +19,6 @@ module RubyPushNotifications
         @params = params
       end
       def make_request
-        puts '********** make_request *************'
-        puts @params
         response = self.class.post('/send', @params)
       end
     end
