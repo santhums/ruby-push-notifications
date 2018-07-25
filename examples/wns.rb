@@ -2,7 +2,7 @@
 
 $:.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 
-require 'ruby-push-notifications'
+require 'fcm-ruby-push-notifications'
 
 sid = "ms-app://...."
 secret = "..."

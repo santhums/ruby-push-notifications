@@ -1,6 +1,6 @@
 # Ruby Push Notifications
-
-[![Build Status](https://travis-ci.org/calonso/ruby-push-notifications.svg)](https://travis-ci.org/calonso/ruby-push-notifications) [![Dependency Status](https://gemnasium.com/calonso/ruby-push-notifications.svg)](https://gemnasium.com/calonso/ruby-push-notifications) [![Code Climate](https://codeclimate.com/github/calonso/ruby-push-notifications/badges/gpa.svg)](https://codeclimate.com/github/calonso/ruby-push-notifications) [![Test Coverage](https://codeclimate.com/github/calonso/ruby-push-notifications/badges/coverage.svg)](https://codeclimate.com/github/calonso/ruby-push-notifications) [![Gem Version](https://badge.fury.io/rb/ruby-push-notifications.svg)](http://badge.fury.io/rb/ruby-push-notifications) [![Join the chat at https://gitter.im/calonso/ruby-push-notifications](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/calonso/ruby-push-notifications?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+<!--
+[![Build Status](https://travis-ci.org/calonso/ruby-push-notifications.svg)](https://travis-ci.org/calonso/ruby-push-notifications) [![Dependency Status](https://gemnasium.com/calonso/ruby-push-notifications.svg)](https://gemnasium.com/calonso/ruby-push-notifications) [![Code Climate](https://codeclimate.com/github/calonso/ruby-push-notifications/badges/gpa.svg)](https://codeclimate.com/github/calonso/ruby-push-notifications) [![Test Coverage](https://codeclimate.com/github/calonso/ruby-push-notifications/badges/coverage.svg)](https://codeclimate.com/github/calonso/ruby-push-notifications) [![Gem Version](https://badge.fury.io/rb/ruby-push-notifications.svg)](http://badge.fury.io/rb/ruby-push-notifications) [![Join the chat at https://gitter.im/calonso/ruby-push-notifications](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/calonso/ruby-push-notifications?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) -->
 
 ### iOS, Android and Windows Phone Push Notifications made easy!
 
@@ -14,7 +14,7 @@
 
 Add this line to your application's Gemfile:
 
-    gem 'ruby-push-notifications'
+    gem 'fcm-ruby-push-notifications', '>= 1.2.1'
 
 And then execute:
 
@@ -22,7 +22,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install ruby-push-notifications
+    $ gem install fcm-ruby-push-notifications
 
 ## Usage
 
@@ -36,10 +36,11 @@ Or install it yourself as:
 
 For completely detailed examples:
 
-1. [Apple iOS example](https://github.com/calonso/ruby-push-notifications/tree/master/examples/apns.rb)
-2. [Google Android example](https://github.com/calonso/ruby-push-notifications/tree/master/examples/gcm.rb)
-3. [Windows Phone(MPNS) example](https://github.com/calonso/ruby-push-notifications/tree/master/examples/mpns.rb)
-4. [Windows Phone(WNS) example](https://github.com/calonso/ruby-push-notifications/tree/master/examples/wns.rb)
+1. [Apple iOS example](https://github.com/santhums/ruby-push-notifications/tree/master/examples/apns.rb)
+2. [Google Android example(GCM)](https://github.com/santhums/ruby-push-notifications/tree/master/examples/gcm.rb)
+2. [Google Android example(FCM)](https://github.com/santhums/ruby-push-notifications/tree/master/examples/fcm.rb)
+3. [Windows Phone(MPNS) example](https://github.com/santhums/ruby-push-notifications/tree/master/examples/mpns.rb)
+4. [Windows Phone(WNS) example](https://github.com/santhums/ruby-push-notifications/tree/master/examples/wns.rb)
 
 ## Pending tasks
 
@@ -57,7 +58,7 @@ Feel free to contribute!!
 
 ## Contributing
 
-1. Fork it ( https://github.com/calonso/ruby-push-notifications/fork )
+1. Fork it ( https://github.com/santhums/ruby-push-notifications/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
