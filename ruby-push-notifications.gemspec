@@ -1,12 +1,12 @@
 # coding: utf-8
 Gem::Specification.new do |spec|
-  spec.name          = "ruby-push-notifications"
+  spec.name          = "fcm-ruby-push-notifications"
   spec.version       = "1.2.0"
-  spec.authors       = ['Carlos Alonso']
-  spec.email         = ['info@mrcalonso.com']
+  spec.authors       = ['Santhu MS']
+  spec.email         = ['santhu.ms83@gmail.com']
   spec.summary       = %q{iOS, Android and Windows Phone Push Notifications made easy!}
   spec.description   = %q{Easy to use gem to send iOS, Android and Windows Phone Push notifications}
-  spec.homepage      = 'https://github.com/calonso/ruby-push-notifications'
+  spec.homepage      = 'https://github.com/santhums/ruby-push-notifications'
   spec.license       = 'MIT'
 
   spec.required_ruby_version = '>= 2.0.0'
@@ -17,6 +17,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'builder', '~> 3.0'
+  spec.add_dependency 'httparty'
+  spec.add_dependency 'json'
 
   spec.add_development_dependency 'bundler', '~> 1.6'
   spec.add_development_dependency 'rake', '~> 10.4'
